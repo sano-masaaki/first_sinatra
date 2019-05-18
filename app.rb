@@ -12,3 +12,7 @@ end
 get '/time' do
   erb :test
 end
+
+get 'git' do
+  "git test"
+end
